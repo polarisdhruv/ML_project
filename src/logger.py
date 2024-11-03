@@ -16,3 +16,29 @@ logging.basicConfig(
 
 
 )
+
+
+if __name__ == "__main__":
+    logging.info("Logging has started")
+
+
+# import logging
+
+# logging.basicConfig(filename='app.log', level=logging.INFO)
+
+# def user_login(username, password):
+#     logging.info(f"User {username} tried to log in.")
+    
+#     # Let's say an error happens during login, like wrong password
+#     if password != "correct_password":
+#         logging.error(f"Login failed for user {username} - Incorrect password.")
+#     else:
+#         logging.info(f"User {username} logged in successfully.")
+
+# # Example of a user trying to log in
+# user_login("dhruv", "wrong_password")
+
+
+#output
+# INFO:root:User dhruv tried to log in.
+# ERROR:root:Login failed for user dhruv - Incorrect password.
